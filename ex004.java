@@ -27,9 +27,9 @@ public class ex004 {
 				acertos++;
 				break;
 			} else if(tiro<arvore) {
-				System.out.println("Marciona esta a DIREITA");
+				System.out.println("Marciano esta a DIREITA");
 			} else if(tiro>arvore) {
-				System.out.println("Marciona esta a ESQUERDA");
+				System.out.println("Marciano esta a ESQUERDA");
 			} 
 		}
 		if(acertos==0) {
