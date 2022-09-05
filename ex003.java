@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ex003 {
-	//Escreva um algoritmo que, dados vinte números, informe qual a diferença entre o menor valor lido e o maior.
+	//Escreva um algoritmo que, dados dez números, informe qual a diferença entre o menor valor lido e o maior.
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -10,7 +10,7 @@ public class ex003 {
 		num = sc.nextInt();
 		maior=num;
 		menor=num;
-		for(cont=0;cont<6;cont++) {
+		for(cont=0;cont<10;cont++) {
 			System.out.println("Digite outro número: ");
 			num = sc.nextInt();
 			if(num>maior)
