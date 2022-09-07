@@ -3,7 +3,7 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 	//Entra com as medidas de dois triangulos e mostrar a area desses, também mostrar qual tem a area maior
-public class Program_aula64 {
+public class ex009 {
 
 	public static void main(String[] args) {
 		
